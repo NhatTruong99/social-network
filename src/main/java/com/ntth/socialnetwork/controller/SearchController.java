@@ -20,7 +20,7 @@ import com.ntth.socialnetwork.repository.UserProfileRepository;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin
 public class SearchController {
 	
 	@Autowired
